@@ -1,8 +1,10 @@
 "use client";
+
 import Image from "next/image";
-import Posts from "./_components/posts";
 import PostModal from "./_components/postModal";
+import Posts from "./_components/posts";
 import { useState } from "react";
+
 export default function Home() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   return (
